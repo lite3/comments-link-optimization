@@ -3,8 +3,8 @@ Contributors: lite3
 Donate link: https://me.alipay.com/lite3
 Tags: comments, seo, links
 Requires at least: 3.0.0
-Tested up to: 3.9.1
-Stable tag: 1.8.3
+Tested up to: 4.0
+Stable tag: 1.8.3.1
 
 Comments Link Optimization waht prevent all search engine crawl your comments link. 
 
@@ -48,6 +48,8 @@ No. After you install and activate the plugin needs to do nothing.
 You do not need to add nofollow to comments link, Because the plug-in by modifying the robots.txt file to prevent search engines crawling the comment link from your site. Robots.txt takes precedence over the nofollow.
 
 == Changelog ==
+= 1.8.3.1 =
+* Tested up to: 4.0
 = 1.8.3 =
 * Tested up to: 3.9.1
 = 1.8.2 =
