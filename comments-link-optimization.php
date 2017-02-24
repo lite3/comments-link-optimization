@@ -29,12 +29,12 @@ function add_redirect_comment_text($text = ''){
 			}
 			// for self link
 			else if(substr($text, $pos+6, $len) == $home){
-				$pos += len + 7;
+				$pos += $len + 7;
 			}
 			// for other link
 			else {
 				$text = substr($text, 0, $pos+6) . $home . '/?r=' . substr($text, $pos + 6);
-				$pos += len + 7;
+				$pos += $len + 7;
 			}
 		}else{
 			$pos += 7;
