@@ -57,7 +57,7 @@ add_action('init', 'redirect_comment_link');
 function redirect_comment_link(){
 	$redirect = isset($_GET['r']) ? $_GET['r'] : false;
 	if($redirect){
-		if('' == $_SERVER['HTTP_REFERER'] || strpos($_SERVER['HTTP_REFERER'],get_option('home')) !== false){
+		if(empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'],get_option('home')) !== false){
 			//header("Location: $redirect");
 			output_redirect($redirect);
 		}else {
