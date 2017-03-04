@@ -1,9 +1,9 @@
-### Comments Link Optimization ###
+# Comments Link Optimization #
 **Contributors:** lite3  
 **Tags:** comments, seo, links  
 **Requires at least:** 3.0.0  
 **Tested up to:** 4.7  
-**Stable tag:** 1.9  
+**Stable tag:** 1.9.1  
 **License:** GPLv2  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -36,14 +36,14 @@ If you want to install manually, download and unzip the `comments-link-optimizat
 
 ## Frequently Asked Questions ##
 
-# Do I need to create or modify the robots.txt file? #
+### Do I need to create or modify the robots.txt file? ###
 
 No. There is nofollow noindex on the jump page, and the search engine will not index the page.
 
-# Do I need to modify the php file? #
+### Do I need to modify the php file? ###
 
 No. After you install and activate the plugin needs to do nothing.
 
-# How can add rel="nofollow" to comments link? #
+### How can add rel="nofollow" to comments link? ###
 
 You do not need to add nofollow to comments link, Because there's nofollow noindex on the jump page, and the search engine will not index the page.

@@ -6,7 +6,7 @@
 Plugin Name: Comments Link Optimization
 Plugin URI: https://www.litefeel.com/comments-link-optimization/
 Description: Comments Link Optimization what prevent all search engine crawl your comments link. 
-Version: 1.9
+Version: 1.9.1
 Author: lite3
 Author URI: https://www.litefeel.com/
 License: GPLv2 or later

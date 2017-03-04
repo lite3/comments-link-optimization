@@ -1,5 +1,9 @@
 ## Change Log ##
 
+# [1.9.1][1.9.1] #
+
+* Changed: The readme.txt file.
+
 # [1.9][1.9] #
 
 * Added: Join translate.wordpress.org
@@ -67,6 +71,7 @@
 
  [keepachangelog]: http://keepachangelog.com/
  [semver]: http://semver.org/
+ [1.9.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9.1
  [1.9]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9
  [1.8.4.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.8.4.1
  [1.8.3.2]: https://github.com/lite3/comments-link-optimization/releases/tag/1.8.3.2
