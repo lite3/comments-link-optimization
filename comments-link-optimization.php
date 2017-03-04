@@ -53,7 +53,7 @@ function modifyCommentText($text){
 		$home = home_url();
 		$newtext = preg_replace_callback(
 			'/<a [^>]*?href=[\'"]\s*([^\s#]\S+)\s*[\'"][^>]*?>/',
-			function($match) use ($home) {
+			function($matchs) use ($home) {
 				$url = $matchs[1];
 				if (stripos($url, $home) !== 0) {
 					return "$home/?=$url";
