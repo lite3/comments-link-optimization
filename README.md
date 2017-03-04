@@ -1,11 +1,11 @@
 ### Comments Link Optimization ###
-**Contributors:** lite3
-**Tags:** comments, seo, links
-**Requires at least:** 3.0.0
-**Tested up to:** 4.7
-**Stable tag:** 1.9
+**Contributors:** lite3  
+**Tags:** comments, seo, links  
+**Requires at least:** 3.0.0  
+**Tested up to:** 4.7  
+**Stable tag:** 1.9  
 **License:** GPLv2  
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html 
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
 Comments Link Optimization what prevent all search engine crawl your comments link.
 
