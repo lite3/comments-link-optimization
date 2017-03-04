@@ -80,6 +80,7 @@ This change log follows the [Keep a Changelog standards][keepachangelog]. Versio
 
  [keepachangelog]: http://keepachangelog.com/
  [semver]: http://semver.org/
+ [1.10]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10
  [1.9.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9.1
  [1.9]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9
  [1.8.4.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.8.4.1
