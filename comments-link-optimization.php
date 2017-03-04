@@ -25,7 +25,7 @@ class CommentsLinkOptimization
 {
 
 function __construct() {
-	add_action('init', 'init');
+	add_action('init', array($this, 'init'));
 	add_filter('comment_text', array($this, 'modifyCommentText'), 99);
 	add_filter('get_comment_author_url', array($this, 'modifyCommentAuthorUrl'), 99);
 }
@@ -71,7 +71,8 @@ function checkRedirect() {
 	$redirect = isset($_GET['r']) ? $_GET['r'] : FALSE;
 	if($redirect){
 		$home = home_url();
-		if(empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $home) !== FALSE){
+		error_log(  __CLASS__ . ": " . $_SERVER['HTTP_REFERER'] );
+		if(!empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $home) !== FALSE){
 			//header("Location: $redirect");
 			$this->printHTML($redirect);
 		}else {
@@ -91,7 +92,7 @@ function printHTML($url)
 	);
 	$backContent = sprintf(
 		/* translators: 1: The begin of html tag <a> 2: The end of html tag <a> */
-		__('If you do not want to visit the page, you can %1%s return to the previous page %2%s .'),
+		__('If you do not want to visit the page, you can %1$s return to the previous page %2$s .'),
 		'<a href="#" onclick="return goback();">',
 		'</a>'
 	);
