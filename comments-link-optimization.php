@@ -4,11 +4,11 @@
  */
 /*
 Plugin Name: Comments Link Optimization
-Plugin URI: http://www.litefeel.com/comments-link-optimization/
+Plugin URI: https://www.litefeel.com/comments-link-optimization/
 Description: Comments Link Optimization what prevent all search engine crawl your comments link. 
 Version: 1.9
 Author: lite3
-Author URI: http://www.litefeel.com/
+Author URI: https://www.litefeel.com/
 License: GPLv2 or later
 Text Domain: comments-link-optimization
 */
