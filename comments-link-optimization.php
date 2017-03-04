@@ -56,7 +56,7 @@ function modifyCommentText($text){
 			function($matchs) use ($home) {
 				$url = $matchs[2];
 				if (stripos($url, $home) !== 0) {
-					return "${matchs[1]}$home/?=$url${matchs[3]}";
+					return "${matchs[1]}$home/?r=$url${matchs[3]}";
 				}
 				return $url;
 			},
