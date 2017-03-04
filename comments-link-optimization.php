@@ -6,7 +6,7 @@
 Plugin Name: Comments Link Optimization
 Plugin URI: https://www.litefeel.com/comments-link-optimization/
 Description: Comments Link Optimization what prevent all search engine crawl your comments link. 
-Version: 1.9.1
+Version: 1.9.2
 Author: lite3
 Author URI: https://www.litefeel.com/
 License: GPLv2 or later
@@ -90,9 +90,11 @@ function printHTML($url)
 		__('The page will jump to %s after 3 seconds.', 'comments-link-optimization'),
 		"<a href=\"$url\">$url</a>"
 	);
+
 	$backContent = sprintf(
 		/* translators: 1: The begin of html tag <a> 2: The end of html tag <a> */
-		__('If you do not want to visit the page, you can %1$s return to the previous page %2$s .'),
+		__('If you do not want to visit the page, you can %1$s return to the previous page %2$s .',
+			'comments-link-optimization'),
 		'<a href="#" onclick="return goback();">',
 		'</a>'
 	);

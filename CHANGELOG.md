@@ -1,5 +1,9 @@
 ## Change Log ##
 
+# [1.9.2][1.9.2] #
+
+* Fixed: Missing translation.
+
 # [1.9.1][1.9.1] #
 
 * Changed: The readme.txt file.
