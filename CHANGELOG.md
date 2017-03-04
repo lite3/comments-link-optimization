@@ -2,6 +2,10 @@
 
 This change log follows the [Keep a Changelog standards][keepachangelog]. Versions follows [Semantic Versioning][semver].
 
+### [1.10][1.10] ###
+
+* Fixed: Cannot modify Comments text link.
+
 ### [1.9.2][1.9.2] ###
 
 * Fixed: Missing translation.
