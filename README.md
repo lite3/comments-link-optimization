@@ -1,9 +1,10 @@
 # Comments Link Optimization #
 **Contributors:** lite3  
 **Tags:** comments, seo, links  
+**Donate Link:** https://www.paypal.me/litefeel  
 **Requires at least:** 3.0.0  
-**Tested up to:** 4.7.2  
-**Stable tag:** 1.10.1  
+**Tested up to:** 4.7.3  
+**Stable tag:** 1.10.2  
 **License:** GPLv2  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -26,7 +27,7 @@ Related Links:
 
 * <a href="https://www.litefeel.com/comments-link-optimization/" title="Comments Link Optimization Plugin for WordPress">Plugin Homepage</a>
 * <a href="https://www.litefeel.com/" title="Author For Comments Link Optimization Plugin">Author Homepage</a>
-* <a href="https://github.com/lite3/comments-link-optimization" title="On GitHub">On GitHub</a>
+* <a href="https://github.com/litefeel/comments-link-optimization" title="On GitHub">On GitHub</a>
 
 ## Installation ##
 

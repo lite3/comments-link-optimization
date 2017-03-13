@@ -1,6 +1,9 @@
 ## Change Log ##
 
-This change log follows the [Keep a Changelog standards][keepachangelog]. Versions follows [Semantic Versioning][semver].
+
+### [1.10.2][1.10.2] ###
+
+* Fixed: Notice:  Undefined offset: 2 in 
 
 ### [1.10][1.10] ###
 
@@ -78,8 +81,8 @@ This change log follows the [Keep a Changelog standards][keepachangelog]. Versio
 
 
 
- [keepachangelog]: http://keepachangelog.com/
- [semver]: http://semver.org/
+
+ [1.10.2]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.2
  [1.10]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10
  [1.9.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9.1
  [1.9]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9
