@@ -71,7 +71,7 @@ function checkRedirect() {
 	$redirect = isset($_GET['r']) ? $_GET['r'] : FALSE;
 	if($redirect){
 		$home = home_url();
-		if(!empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $home) !== FALSE){
+		if(empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $home) !== FALSE){
 			//header("Location: $redirect");
 			$this->printHTML($redirect);
 		}else {
