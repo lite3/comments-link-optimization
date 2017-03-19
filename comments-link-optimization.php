@@ -42,6 +42,7 @@ function modifyCommentAuthorUrl($url){
 	if (!is_admin()) {
 		$home = home_url();
 		if(!empty($url) && stripos($url, $home) !== 0){
+			$url = urlencode($url);
 			$url = "$home/?r=$url";
 		}
 	}
@@ -55,6 +56,7 @@ function modifyCommentText($text){
 			'/(<a [^>]*?href=[\'"])\s*([^\s#]\S+)\s*([\'"][^>]*?>)/',
 			function($matchs) use ($home) {
 				$url = $matchs[2];
+				$url = urlencode($url);
 				if (stripos($url, $home) !== 0) {
 					return "${matchs[1]}$home/?r=$url${matchs[3]}";
 				}
@@ -69,15 +71,9 @@ function modifyCommentText($text){
 // 
 function checkRedirect() {
 	$redirect = isset($_GET['r']) ? $_GET['r'] : FALSE;
-	if($redirect){
-		$home = home_url();
-		if(empty($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $home) !== FALSE){
-			//header("Location: $redirect");
-			$this->printHTML($redirect);
-		}else {
-			header("Location: $home");
-		}
-		exit;
+	if( $redirect ){
+		$this->printHTML(urldecode($redirect));
+		die();
 	}
 }
 
