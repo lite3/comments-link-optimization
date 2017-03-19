@@ -1,5 +1,8 @@
 ## Change Log ##
 
+### [1.10.3][1.10.3] ###
+
+* Fixed: Incorrect redirect url with query string
 
 ### [1.10.2][1.10.2] ###
 
@@ -82,6 +85,7 @@
 
 
 
+ [1.10.3]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.3
  [1.10.2]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.2
  [1.10]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10
  [1.9.1]: https://github.com/lite3/comments-link-optimization/releases/tag/1.9.1
