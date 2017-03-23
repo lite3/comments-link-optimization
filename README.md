@@ -1,5 +1,5 @@
 # Comments Link Optimization #
-**Contributors:** lite3  
+**Contributors:** litefeel  
 **Tags:** comments, seo, links  
 **Donate Link:** https://www.paypal.me/litefeel  
 **Requires at least:** 3.0.0  

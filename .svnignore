@@ -1,0 +1,12 @@
+bin
+tests
+deploy2wp
+.editorconfig
+.gitignore
+.scrutinizer.yml
+.svnignore
+.travis.yml
+*.json
+*.lock
+*.md
+*.xml

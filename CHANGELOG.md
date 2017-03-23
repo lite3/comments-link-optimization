@@ -1,5 +1,9 @@
 ## Change Log ##
 
+### [1.10.4][1.10.4] ###
+
+* Change author to litefeel
+
 ### [1.10.3][1.10.3] ###
 
 * Fixed: Incorrect redirect url with query string
