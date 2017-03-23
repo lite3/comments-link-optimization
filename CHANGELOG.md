@@ -89,6 +89,7 @@
 
 
 
+ [1.10.4]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.4
  [1.10.3]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.3
  [1.10.2]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10.2
  [1.10]: https://github.com/lite3/comments-link-optimization/releases/tag/1.10
